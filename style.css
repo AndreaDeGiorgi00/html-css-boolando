@@ -3,9 +3,20 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /*command*/
+body{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
 
 header{
     background-color: orange;
@@ -37,7 +48,10 @@ footer{
     align-items: center;
 }
 
-
+.flex-just-en{
+    display: flex;
+    justify-content: flex-end;
+}
 .fg-1{
     flex-grow: 1;
 }
@@ -60,6 +74,10 @@ footer{
     background-color: black;
 }
 
+.col-white{
+    color: white;
+}
+
 /*header*/
 
 header{
@@ -75,7 +93,20 @@ header{
     justify-content: space-between;
     
 }
+.text-header{
+    padding-left: 5%;
+}
+.testo{
+    width: 100%;
+}
 
+.logo-img{
+    height: 60px;
+}
+.icone-text{
+    text-align: right;
+    
+}
 
 /*main*/
 .big.container{
