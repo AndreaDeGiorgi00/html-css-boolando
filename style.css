@@ -29,6 +29,10 @@ footer{
     height: 100px;
 }
 
+img{
+    height: 100%;
+}
+
 /*iteams*/
 
 .border{
@@ -59,7 +63,9 @@ footer{
 .fg-5{
     flex-grow: 5;
 }
-
+.pos-rel{
+    position: relative;
+}
 /*colors*/
 
 
@@ -78,6 +84,14 @@ footer{
     color: white;
 }
 
+.col-grey{
+    color: grey;
+}
+
+.col-red{
+    color: red;
+}
+
 /*header*/
 
 header{
@@ -85,7 +99,9 @@ header{
     top: 0;
     right: 0;
     left: 0;
+    z-index: 1;
 }
+
 
 .container{
     width: 80%;
@@ -115,17 +131,100 @@ header{
     margin-top: 10%;
 }
 .column{
-    width: 30%;
-    height: 400px;
+    width: 23%;
+    height: 600px;
+    
 }
-
-/*.immagine{
-    height: 200px;
-    width: 100%;
-    background-color: red;
-
-}*/
-
 .row{
     padding-bottom: 50px;
+}
+
+.sconto{
+    text-decoration: line-through;
+}
+
+.foto-effettiva{
+    height: 400px;
+    
+    background-image: ;
+}
+.cuore{
+    font-size: 50px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: beige;
+    padding: 0px 10px;
+    ;
+}
+.cuore:hover{
+    color: red;
+    background-color: black;
+    
+
+}
+.foto-1{
+    height: 400px;
+    background-image: url(img/1.webp);
+    background-size: cover;
+}
+.foto-1:hover{
+    background-image: url(img/1b.webp);
+    background-size: cover;    
+
+}
+
+.foto-2{
+    height: 400px;
+    background-image: url(img/2.webp);
+    background-size: cover;
+}
+.foto-2:hover{
+    background-image: url(img/2b.webp);
+    background-size: cover;    
+
+}
+
+.foto-3{
+    height: 400px;
+    background-image: url(img/3.webp);
+    background-size: cover;
+}
+.foto-3:hover{
+    background-image: url(img/3b.webp);
+    background-size: cover;    
+
+}
+
+.foto-4{
+    height: 400px;
+    background-image: url(img/4.webp);
+    background-size: cover;
+}
+.foto-4:hover{
+    background-image: url(img/4b.webp);
+    background-size: cover;    
+
+}
+
+.foto-5{
+    height: 400px;
+    background-image: url(img/5.webp);
+    background-size: cover;
+}
+.foto-5:hover{
+    background-image: url(img/5b.webp);
+    background-size: cover;    
+
+}
+
+.foto-6{
+    height: 400px;
+    background-image: url(img/6.webp);
+    background-size: cover;
+}
+.foto-6:hover{
+    background-image: url(img/6b.webp);
+    background-size: cover;    
+
 }
